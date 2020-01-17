@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Müzik ve Oyun Deneme Topluluğu Ana Sayfa</title>
+    <meta name="title" content="Müzik ve Oyun Deneme Topluluğu Ana Sayfa">
+    <meta name="keywords" content="modent, Modent, müzik ve oyun deneme topluluğu, modent hacettepe">
+    <meta name="description" content="Hacettepe Üniversitesi Müzik ve Oyun Deneme Topluluğu resmi web sitesi">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/modentLogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+    <style>
+    
+        .container {
+            padding-right: 0px;
+        }
+
+    .textBox {
+        box-sizing: border-box;
+        padding: 10px 20px;
+        margin-bottom: 8px;
+        display: inline-block;
+        background-color: rgb(174, 216, 203);
+        border: 1px solid black;
+        font-size: 14px;
+    }
+
+    .messageTextBox {
+        box-sizing: border-box;
+        height: 100px;
+        background-color: rgb(174, 216, 203);
+        border: 1px solid black;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .submitButton {
+        width: 20%;
+        display: block;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: rgb(51, 146, 116);
+        color: white;
+        font-size: 15px;
+    }
+
+    @media screen and (min-width: 1000px){
+        iframe {width: 600px;}
+        .textBox {width: 300px;}
+        .messageTextBox {width: 607px;}
+    }
+
+    @media screen and (min-width: 1200px){
+        iframe {width: 800px;}
+        .textBox {width: 400px;}
+        .messageTextBox {width: 807px;}
+    }
+
+    @media screen and (min-width: 1400px){
+        iframe {width: 1000px;}
+        .textBox {width: 500px;}
+        .messageTextBox {width: 1007px;}
+    }
+
+    
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="sideNavBar">
+            <img src="img/modentLogo.png" alt="Modent Logo" width="125px">
+
+            <h3>Müzik ve Oyun</h3>
+            <h4>Deneme Topluluğu</h4>
+            <hr>
+            <ul>
+                <li><a class="active" href="index.html" class="menu">Ana Sayfa</a></li>
+                <li><a href="etkinliklerimiz.html" class="menu">Etkinliklerimiz</a></li>
+                <li><a href="hakkimizda.html" class="menu">Hakkımızda</a></li>
+                <li><a href="iletisim.html" class="menu">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="bottomSocialBar">
+            <ul id="iletisim">
+                <li><img src="img/e-mailIcon.png" alt="E-mail Icon" width="25px"></li>
+                <li><a href="mailto:hacettepemodent@gmail.com">hacettepemodent@gmail.com</a></li>
+                <li><img src="img/phoneIcon.png" alt="Phone Icon" width="20px"></li>
+                <li>Telefon: +90 543 485 4605 - Buğra Arslanca </li>
+            </ul>
+            <ul id="socialMedia">
+                <li><a href="https://www.instagram.com/hacettepemodent/" target="_blank"><img src="img/igIcon.png" alt="Modent Instagram" width="35px"></a></li>
+                <li><a href="https://www.facebook.com/hacettepemodent/" target="_blank"><img src="img/fbIcon.png" alt="Modent Facebook" width="35px"></a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+
+        <main>
+
+           
+            <article>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.8458602303559!2d32.861953829253075!3d39.932811998714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDU1JzU4LjEiTiAzMsKwNTEnNDUuMCJF!5e0!3m2!1sen!2str!4v1578506904699!5m2!1sen!2str" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <p>Adres : Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, cum?</p>
+                <br>
+                <h3 style="padding-bottom: 5px; font-weight: bold;">Bize Mesaj Gönderin</h3>
+                <form>
+                    <input class="textBox" type="text" name="isim" placeholder="Ad">
+                    <input class="textBox" type="text" name="isim" placeholder="Soyad">
+                    <br>
+                    <input class="textBox" type="text" name="isim" placeholder="Cep Telefonu">
+                    <input class="textBox" type="text" name="isim" placeholder="E-posta Adresi">
+                    <textarea class="messageTextBox" cols="40" rows="5" name="isim" placeholder="Mesajınız"></textarea>
+                    <input class="submitButton" type="submit" value="Gönder">
+                </form>
+            </article>
+        </main>
+        <footer>
+    
+    
+        </footer>
+    </div>
+    
+</body>
+</html>
+
